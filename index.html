@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidharth's Personal Website</title>
+    <!-- Link to the CSS file -->
+    <link rel="stylesheet" href="sid.css">
+</head>
+<body>
+    <!-- Header with navigation menu -->
+    <header>
+        <nav>
+            <!-- Hamburger menu toggle for mobile (hidden on desktop) -->
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">☰</label>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content sections -->
+    <main>
+        <!-- Home section with profile photo and intro -->
+        <section id="home" class="section">
+            <div class="profile">
+                <img src="images\myphoto.jpg.jpeg" alt="Sidharth's Profile Photo" class="profile-photo">
+                <h1>Sidharth</h1>
+                <p>Class 12 Commerce Student</p>
+            </div>
+        </section>
+
+        <!-- About Me section -->
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>Hi, I'm Sidharth, a Class 12 Commerce student passionate about computers, anime, and technology. My dream is to work remotely in the tech field, exploring innovative solutions and creative projects.</p>
+        </section>
+
+        <!-- Skills section -->
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <ul>
+                <li>Basic Programming (HTML, CSS, Python)</li>
+                <li>Computer Hardware Knowledge</li>
+                <li>Problem-Solving</li>
+                <li>Creative Thinking</li>
+            </ul>
+        </section>
+
+        <!-- Education section -->
+        <section id="education" class="section">
+            <h2>Education</h2>
+            <p>Currently in Class 12 Commerce at Wonderland High School and jr collge. Focused on subjects like Accountancy, Business Studies, and Economics.</p>
+        </section>
+
+        <!-- Hobbies section -->
+        <section id="hobbies" class="section">
+            <h2>Hobbies</h2>
+            <p>I enjoy watching anime, tinkering with computers, and staying updated on the latest technology trends. In my free time, I like reading tech blogs and experimenting with simple coding projects.</p>
+        </section>
+
+        <!-- Contact section -->
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <p>Get in touch with me!</p>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Sidharth. All rights reserved.</p>
+    </footer>
+</body>
+</html> 
